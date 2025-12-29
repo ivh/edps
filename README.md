@@ -5,6 +5,7 @@ directly with [uv](https://docs.astral.sh/uv/), like so:
 uv sync          # install dependencies into .venv
 uv run pyesorex  # see if pyesorex runs, prints help info
 uv run edps -lw  # start EDPS and list workflows
+uv run edps-gui  # start the EDPS GUI, opens in browser
 ```
 
 Note that it uses the re-packaged `pycpl` from [here](https://github.com/ivh/pycpl).

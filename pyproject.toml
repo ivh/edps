@@ -7,6 +7,7 @@ dependencies = [
     "astropy",
     "edps",
     "edpsplot",
+    "edpsgui",
     "pyesorex",
     "scipy",
     "numpy<2.4",
