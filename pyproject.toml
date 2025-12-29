@@ -1,0 +1,24 @@
+[project]
+name = "my-edps"
+version = "0.1.0"
+description = "Custom EDPS setup with uv"
+requires-python = ">=3.12"
+dependencies = [
+    "astropy",
+    "edps",
+    "edpsplot",
+    "pyesorex",
+    "scipy",
+    "numpy<2.4",
+]
+
+[tool.uv.sources]
+pycpl = { index = "pycpl" }
+
+[[tool.uv.index]]
+name = "pycpl"
+url = "https://ivh.github.io/pycpl/simple/"
+
+[[tool.uv.index]]
+name = "eso"
+url = "https://ftp.eso.org/pub/dfs/pipelines/libraries/"
