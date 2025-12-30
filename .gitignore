@@ -1,3 +1,4 @@
 docs/
 *.log
 workflows/
+claude-sessions/
